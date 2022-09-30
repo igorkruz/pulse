@@ -1,0 +1,43 @@
+.feedback{
+    padding-bottom: 48px;
+
+    &__wrapper{
+        margin: 0 auto;
+        max-width: 915px;
+    }
+    &__item{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    &__img{
+        display: block;
+        width: 169px;
+        height: 169px;
+    }
+    &__personal-name{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        color: #0D0D0D;
+    }
+    &__subname{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+
+        color: #646464;
+    }
+    &__descr{
+        margin-top: 10px;
+        max-width: 680px;
+
+        font-family: 'MuseoModerno';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0D0D0D;
+
+    }
+}

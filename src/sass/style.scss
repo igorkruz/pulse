@@ -1,0 +1,26 @@
+@import './base/variables';
+@import './base/mixin';
+
+* {
+    font-family: 'Roboto', sans-serif;;
+}
+
+.container{
+    position: relative;
+    max-width: 945px;
+    margin: 0 auto;
+}
+
+@import './block/buttons';
+@import './block/titles';
+@import './block/header';
+@import './block/forms';
+
+@import './block/promo';
+@import './block/advantages.scss';
+@import './block/consultation';
+@import './block/carousel.scss';
+@import './block/catalog';
+@import './block/footer';
+@import './block/modal';
+@import './block/feedback';

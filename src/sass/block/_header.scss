@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    max-width: 942px;
+    &__logo{
+        width: 251px;
+        img{
+            width: 100%;
+        }
+    }
+    &__official{
+        font-family:  'MuseoModerno', cursive;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 12px;
+        color: #FFFFFF;
+        text-align: center;
+        span{
+            display: block;
+            margin-top: 7px;
+            font-family:  'MuseoModerno', cursive;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 29px;
+        }
+    }
+    &__contacts{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        
+        button{
+            margin-top: 4px;
+        }
+    }
+    &__phone{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        color: #FFFFFF;
+        text-decoration: none;
+        transition: .5s;
+        @include hover_links;
+    }
+}
